@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Lam Dong tea hill illustration">
+  <rect width="960" height="540" fill="#eaf5ee"/>
+  <rect y="330" width="960" height="210" fill="#83b86e"/>
+  <path d="M0 364c110-58 221-58 332 0s221 58 332 0 198-59 296-11v187H0z" fill="#6aa85e"/>
+  <path d="M0 420c110-58 221-58 332 0s221 58 332 0 198-59 296-11v131H0z" fill="#4f934f"/>
+  <g fill="none" stroke="#d7ead0" stroke-width="10" opacity=".9">
+    <path d="M-20 382c120-48 235-48 344 0s222 48 337 0 211-49 319-8"/>
+    <path d="M-20 438c120-48 235-48 344 0s222 48 337 0 211-49 319-8"/>
+    <path d="M-20 494c120-48 235-48 344 0s222 48 337 0 211-49 319-8"/>
+  </g>
+  <path d="M108 330h744l-92-116H205z" fill="#2d6a4f"/>
+  <path d="M204 214c106-68 203-78 291-31 93 50 177 45 253-17 51 55 86 110 104 164H108c20-44 52-83 96-116z" fill="#3d7c5a"/>
+  <circle cx="782" cy="96" r="52" fill="#f2c94c"/>
+  <text x="52" y="492" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17324d">Vùng chè, nông nghiệp cao nguyên</text>
+</svg>

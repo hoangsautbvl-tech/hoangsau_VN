@@ -1,0 +1,487 @@
+[
+  {
+    "code": "01",
+    "name": "Hà Nội",
+    "type": "Thành phố",
+    "region": "Đồng bằng sông Hồng",
+    "lat": 21.0285,
+    "lng": 105.8542,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Hà Nội",
+    "weather_label": "Hà Nội",
+    "slug": "ha-noi"
+  },
+  {
+    "code": "04",
+    "name": "Cao Bằng",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 22.6666,
+    "lng": 106.257,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Cao Bằng",
+    "weather_label": "Cao Bằng",
+    "slug": "cao-bang"
+  },
+  {
+    "code": "08",
+    "name": "Tuyên Quang",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 21.823,
+    "lng": 105.2181,
+    "merged": true,
+    "merged_from": [
+      "Hà Giang",
+      "Tuyên Quang"
+    ],
+    "capital": "Tuyên Quang",
+    "slug": "tuyen-quang"
+  },
+  {
+    "code": "11",
+    "name": "Điện Biên",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 21.3856,
+    "lng": 103.023,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Điện Biên Phủ",
+    "slug": "dien-bien"
+  },
+  {
+    "code": "12",
+    "name": "Lai Châu",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 22.3964,
+    "lng": 103.4582,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Lai Châu",
+    "slug": "lai-chau"
+  },
+  {
+    "code": "14",
+    "name": "Sơn La",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 21.3256,
+    "lng": 103.9188,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Sơn La",
+    "slug": "son-la"
+  },
+  {
+    "code": "15",
+    "name": "Lào Cai",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 22.4856,
+    "lng": 103.9755,
+    "merged": true,
+    "merged_from": [
+      "Lào Cai",
+      "Yên Bái"
+    ],
+    "capital": "Lào Cai",
+    "slug": "lao-cai"
+  },
+  {
+    "code": "19",
+    "name": "Thái Nguyên",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 21.5942,
+    "lng": 105.8482,
+    "merged": true,
+    "merged_from": [
+      "Thái Nguyên",
+      "Bắc Kạn"
+    ],
+    "capital": "Thái Nguyên",
+    "slug": "thai-nguyen"
+  },
+  {
+    "code": "20",
+    "name": "Lạng Sơn",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 21.8537,
+    "lng": 106.7615,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Lạng Sơn",
+    "slug": "lang-son"
+  },
+  {
+    "code": "22",
+    "name": "Quảng Ninh",
+    "type": "Tỉnh",
+    "region": "Đông Bắc Bộ",
+    "lat": 20.9511,
+    "lng": 107.083,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Hạ Long",
+    "slug": "quang-ninh"
+  },
+  {
+    "code": "24",
+    "name": "Bắc Ninh",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "lat": 21.1861,
+    "lng": 106.0763,
+    "merged": true,
+    "merged_from": [
+      "Bắc Ninh",
+      "Bắc Giang"
+    ],
+    "capital": "Bắc Ninh",
+    "slug": "bac-ninh"
+  },
+  {
+    "code": "25",
+    "name": "Phú Thọ",
+    "type": "Tỉnh",
+    "region": "Trung du và miền núi phía Bắc",
+    "lat": 21.3447,
+    "lng": 105.403,
+    "merged": true,
+    "merged_from": [
+      "Phú Thọ",
+      "Vĩnh Phúc",
+      "Hòa Bình"
+    ],
+    "capital": "Việt Trì",
+    "slug": "phu-tho"
+  },
+  {
+    "code": "31",
+    "name": "Hải Phòng",
+    "type": "Thành phố",
+    "region": "Đồng bằng sông Hồng",
+    "lat": 20.8449,
+    "lng": 106.6881,
+    "merged": true,
+    "merged_from": [
+      "Hải Phòng",
+      "Hải Dương"
+    ],
+    "capital": "Hải Phòng",
+    "slug": "hai-phong"
+  },
+  {
+    "code": "33",
+    "name": "Hưng Yên",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "lat": 20.6464,
+    "lng": 106.0511,
+    "merged": true,
+    "merged_from": [
+      "Hưng Yên",
+      "Thái Bình"
+    ],
+    "capital": "Hưng Yên",
+    "slug": "hung-yen"
+  },
+  {
+    "code": "37",
+    "name": "Ninh Bình",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Hồng",
+    "lat": 20.2506,
+    "lng": 105.9745,
+    "merged": true,
+    "merged_from": [
+      "Ninh Bình",
+      "Nam Định",
+      "Hà Nam"
+    ],
+    "capital": "Ninh Bình",
+    "slug": "ninh-binh"
+  },
+  {
+    "code": "38",
+    "name": "Thanh Hóa",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "lat": 19.8067,
+    "lng": 105.7852,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Thanh Hóa",
+    "slug": "thanh-hoa"
+  },
+  {
+    "code": "40",
+    "name": "Nghệ An",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "lat": 18.6796,
+    "lng": 105.6813,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Vinh",
+    "slug": "nghe-an"
+  },
+  {
+    "code": "42",
+    "name": "Hà Tĩnh",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "lat": 18.3428,
+    "lng": 105.9057,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Hà Tĩnh",
+    "slug": "ha-tinh"
+  },
+  {
+    "code": "44",
+    "name": "Quảng Trị",
+    "type": "Tỉnh",
+    "region": "Bắc Trung Bộ",
+    "lat": 16.745,
+    "lng": 107.1855,
+    "merged": true,
+    "merged_from": [
+      "Quảng Trị",
+      "Quảng Bình"
+    ],
+    "capital": "Đông Hà",
+    "slug": "quang-tri"
+  },
+  {
+    "code": "46",
+    "name": "Huế",
+    "type": "Thành phố",
+    "region": "Bắc Trung Bộ",
+    "lat": 16.4637,
+    "lng": 107.5909,
+    "merged": false,
+    "merged_from": [],
+    "capital": "Huế",
+    "slug": "hue"
+  },
+  {
+    "code": "48",
+    "name": "Đà Nẵng",
+    "type": "Thành phố",
+    "region": "Duyên hải Nam Trung Bộ",
+    "lat": 16.0544,
+    "lng": 108.2022,
+    "merged": true,
+    "merged_from": [
+      "Đà Nẵng",
+      "Quảng Nam"
+    ],
+    "capital": "Đà Nẵng",
+    "slug": "da-nang"
+  },
+  {
+    "code": "51",
+    "name": "Quảng Ngãi",
+    "type": "Tỉnh",
+    "region": "Duyên hải Nam Trung Bộ",
+    "lat": 15.1214,
+    "lng": 108.8044,
+    "merged": true,
+    "merged_from": [
+      "Quảng Ngãi",
+      "Kon Tum"
+    ],
+    "capital": "Quảng Ngãi",
+    "slug": "quang-ngai"
+  },
+  {
+    "code": "52",
+    "name": "Gia Lai",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "lat": 13.9833,
+    "lng": 108.0,
+    "merged": true,
+    "merged_from": [
+      "Gia Lai",
+      "Bình Định"
+    ],
+    "capital": "Pleiku",
+    "slug": "gia-lai"
+  },
+  {
+    "code": "56",
+    "name": "Khánh Hòa",
+    "type": "Tỉnh",
+    "region": "Duyên hải Nam Trung Bộ",
+    "lat": 12.2388,
+    "lng": 109.1967,
+    "merged": true,
+    "merged_from": [
+      "Khánh Hòa",
+      "Ninh Thuận"
+    ],
+    "capital": "Nha Trang",
+    "slug": "khanh-hoa"
+  },
+  {
+    "code": "66",
+    "name": "Đắk Lắk",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "lat": 12.6664,
+    "lng": 108.0372,
+    "merged": true,
+    "merged_from": [
+      "Đắk Lắk",
+      "Phú Yên"
+    ],
+    "capital": "Buôn Ma Thuột",
+    "slug": "dak-lak"
+  },
+  {
+    "code": "68",
+    "name": "Lâm Đồng",
+    "type": "Tỉnh",
+    "region": "Tây Nguyên",
+    "lat": 11.9404,
+    "lng": 108.4583,
+    "merged": true,
+    "merged_from": [
+      "Lâm Đồng",
+      "Đắk Nông",
+      "Bình Thuận"
+    ],
+    "capital": "Đà Lạt",
+    "slug": "lam-dong"
+  },
+  {
+    "code": "75",
+    "name": "Đồng Nai",
+    "type": "Thành phố",
+    "region": "Đông Nam Bộ",
+    "lat": 10.9447,
+    "lng": 106.8243,
+    "merged": true,
+    "merged_from": [
+      "Đồng Nai",
+      "Bình Phước"
+    ],
+    "capital": "Biên Hòa",
+    "slug": "dong-nai"
+  },
+  {
+    "code": "79",
+    "name": "Hồ Chí Minh",
+    "type": "Thành phố",
+    "region": "Đông Nam Bộ",
+    "lat": 10.7769,
+    "lng": 106.7009,
+    "merged": true,
+    "merged_from": [
+      "Thành phố Hồ Chí Minh",
+      "Bình Dương",
+      "Bà Rịa - Vũng Tàu"
+    ],
+    "capital": "Thành phố Hồ Chí Minh",
+    "slug": "ho-chi-minh"
+  },
+  {
+    "code": "80",
+    "name": "Tây Ninh",
+    "type": "Tỉnh",
+    "region": "Đông Nam Bộ",
+    "lat": 11.31,
+    "lng": 106.0983,
+    "merged": true,
+    "merged_from": [
+      "Tây Ninh",
+      "Long An"
+    ],
+    "capital": "Tây Ninh",
+    "slug": "tay-ninh"
+  },
+  {
+    "code": "82",
+    "name": "Đồng Tháp",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "lat": 10.4938,
+    "lng": 105.6882,
+    "merged": true,
+    "merged_from": [
+      "Đồng Tháp",
+      "Tiền Giang"
+    ],
+    "capital": "Cao Lãnh",
+    "slug": "dong-thap"
+  },
+  {
+    "code": "86",
+    "name": "Vĩnh Long",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "lat": 10.2397,
+    "lng": 105.9572,
+    "merged": true,
+    "merged_from": [
+      "Vĩnh Long",
+      "Bến Tre",
+      "Trà Vinh"
+    ],
+    "capital": "Vĩnh Long",
+    "slug": "vinh-long"
+  },
+  {
+    "code": "91",
+    "name": "An Giang",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "lat": 10.5216,
+    "lng": 105.1259,
+    "merged": true,
+    "merged_from": [
+      "An Giang",
+      "Kiên Giang"
+    ],
+    "capital": "Long Xuyên",
+    "slug": "an-giang"
+  },
+  {
+    "code": "92",
+    "name": "Cần Thơ",
+    "type": "Thành phố",
+    "region": "Đồng bằng sông Cửu Long",
+    "lat": 10.0452,
+    "lng": 105.7469,
+    "merged": true,
+    "merged_from": [
+      "Cần Thơ",
+      "Sóc Trăng",
+      "Hậu Giang"
+    ],
+    "capital": "Cần Thơ",
+    "slug": "can-tho"
+  },
+  {
+    "code": "96",
+    "name": "Cà Mau",
+    "type": "Tỉnh",
+    "region": "Đồng bằng sông Cửu Long",
+    "lat": 9.1769,
+    "lng": 105.1524,
+    "merged": true,
+    "merged_from": [
+      "Cà Mau",
+      "Bạc Liêu"
+    ],
+    "capital": "Cà Mau",
+    "slug": "ca-mau"
+  }
+]

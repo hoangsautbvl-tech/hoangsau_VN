@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>Bản đồ Việt Nam</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="/style.css?v=20260502-home-encoding-fix">
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Bản đồ Việt Nam</h2>
+
+      <div class="sidebar-tools">
+        <input id="province-search" class="province-search" placeholder="Tìm tỉnh/thành">
+        <div class="sidebar-actions">
+          <button id="home-btn" class="home-btn" type="button">Trang chủ</button>
+          <button id="full-view-btn" type="button">Toàn quốc</button>
+          <button id="locate-btn" type="button">Vị trí</button>
+        </div>
+      </div>
+
+      <div id="province-list" class="province-list"></div>
+
+      <div id="map-status" class="sidebar-status">
+        Chọn một tỉnh/thành để xem bản đồ chi tiết.
+      </div>
+    </aside>
+
+    <main class="content">
+      <div id="map"></div>
+      <div class="map-focus-title">
+        <strong>BẢN ĐỒ VIỆT NAM</strong>
+        <span>Được viết bởi Hoàng Sáu</span>
+      </div>
+      <div id="map-loading" class="map-loading hidden">Đang tải bản đồ...</div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/@turf/turf@7.2.0/turf.min.js"></script>
+  <script src="/app.js?v=20260502-home-encoding-fix"></script>
+</body>
+</html>

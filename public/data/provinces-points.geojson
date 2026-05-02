@@ -1,0 +1,762 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "01",
+        "name": "Hà Nội",
+        "type": "Thành phố",
+        "region": "Đồng bằng sông Hồng",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Hà Nội",
+        "weather_label": "Hà Nội",
+        "slug": "ha-noi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8542,
+          21.0285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "04",
+        "name": "Cao Bằng",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Cao Bằng",
+        "weather_label": "Cao Bằng",
+        "slug": "cao-bang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.257,
+          22.6666
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "08",
+        "name": "Tuyên Quang",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": true,
+        "merged_from": [
+          "Hà Giang",
+          "Tuyên Quang"
+        ],
+        "capital": "Tuyên Quang",
+        "slug": "tuyen-quang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.2181,
+          21.823
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "11",
+        "name": "Điện Biên",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Điện Biên Phủ",
+        "slug": "dien-bien"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.023,
+          21.3856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "12",
+        "name": "Lai Châu",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Lai Châu",
+        "slug": "lai-chau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.4582,
+          22.3964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "14",
+        "name": "Sơn La",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Sơn La",
+        "slug": "son-la"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9188,
+          21.3256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "15",
+        "name": "Lào Cai",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": true,
+        "merged_from": [
+          "Lào Cai",
+          "Yên Bái"
+        ],
+        "capital": "Lào Cai",
+        "slug": "lao-cai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9755,
+          22.4856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "19",
+        "name": "Thái Nguyên",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": true,
+        "merged_from": [
+          "Thái Nguyên",
+          "Bắc Kạn"
+        ],
+        "capital": "Thái Nguyên",
+        "slug": "thai-nguyen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8482,
+          21.5942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "20",
+        "name": "Lạng Sơn",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Lạng Sơn",
+        "slug": "lang-son"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7615,
+          21.8537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "22",
+        "name": "Quảng Ninh",
+        "type": "Tỉnh",
+        "region": "Đông Bắc Bộ",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Hạ Long",
+        "slug": "quang-ninh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.083,
+          20.9511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "24",
+        "name": "Bắc Ninh",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Hồng",
+        "merged": true,
+        "merged_from": [
+          "Bắc Ninh",
+          "Bắc Giang"
+        ],
+        "capital": "Bắc Ninh",
+        "slug": "bac-ninh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0763,
+          21.1861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "25",
+        "name": "Phú Thọ",
+        "type": "Tỉnh",
+        "region": "Trung du và miền núi phía Bắc",
+        "merged": true,
+        "merged_from": [
+          "Phú Thọ",
+          "Vĩnh Phúc",
+          "Hòa Bình"
+        ],
+        "capital": "Việt Trì",
+        "slug": "phu-tho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.403,
+          21.3447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "31",
+        "name": "Hải Phòng",
+        "type": "Thành phố",
+        "region": "Đồng bằng sông Hồng",
+        "merged": true,
+        "merged_from": [
+          "Hải Phòng",
+          "Hải Dương"
+        ],
+        "capital": "Hải Phòng",
+        "slug": "hai-phong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.6881,
+          20.8449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "33",
+        "name": "Hưng Yên",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Hồng",
+        "merged": true,
+        "merged_from": [
+          "Hưng Yên",
+          "Thái Bình"
+        ],
+        "capital": "Hưng Yên",
+        "slug": "hung-yen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0511,
+          20.6464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "37",
+        "name": "Ninh Bình",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Hồng",
+        "merged": true,
+        "merged_from": [
+          "Ninh Bình",
+          "Nam Định",
+          "Hà Nam"
+        ],
+        "capital": "Ninh Bình",
+        "slug": "ninh-binh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9745,
+          20.2506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "38",
+        "name": "Thanh Hóa",
+        "type": "Tỉnh",
+        "region": "Bắc Trung Bộ",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Thanh Hóa",
+        "slug": "thanh-hoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7852,
+          19.8067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "40",
+        "name": "Nghệ An",
+        "type": "Tỉnh",
+        "region": "Bắc Trung Bộ",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Vinh",
+        "slug": "nghe-an"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6813,
+          18.6796
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "42",
+        "name": "Hà Tĩnh",
+        "type": "Tỉnh",
+        "region": "Bắc Trung Bộ",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Hà Tĩnh",
+        "slug": "ha-tinh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9057,
+          18.3428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "44",
+        "name": "Quảng Trị",
+        "type": "Tỉnh",
+        "region": "Bắc Trung Bộ",
+        "merged": true,
+        "merged_from": [
+          "Quảng Trị",
+          "Quảng Bình"
+        ],
+        "capital": "Đông Hà",
+        "slug": "quang-tri"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1855,
+          16.745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "46",
+        "name": "Huế",
+        "type": "Thành phố",
+        "region": "Bắc Trung Bộ",
+        "merged": false,
+        "merged_from": [],
+        "capital": "Huế",
+        "slug": "hue"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.5909,
+          16.4637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "48",
+        "name": "Đà Nẵng",
+        "type": "Thành phố",
+        "region": "Duyên hải Nam Trung Bộ",
+        "merged": true,
+        "merged_from": [
+          "Đà Nẵng",
+          "Quảng Nam"
+        ],
+        "capital": "Đà Nẵng",
+        "slug": "da-nang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2022,
+          16.0544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "51",
+        "name": "Quảng Ngãi",
+        "type": "Tỉnh",
+        "region": "Duyên hải Nam Trung Bộ",
+        "merged": true,
+        "merged_from": [
+          "Quảng Ngãi",
+          "Kon Tum"
+        ],
+        "capital": "Quảng Ngãi",
+        "slug": "quang-ngai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8044,
+          15.1214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "52",
+        "name": "Gia Lai",
+        "type": "Tỉnh",
+        "region": "Tây Nguyên",
+        "merged": true,
+        "merged_from": [
+          "Gia Lai",
+          "Bình Định"
+        ],
+        "capital": "Pleiku",
+        "slug": "gia-lai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0,
+          13.9833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "56",
+        "name": "Khánh Hòa",
+        "type": "Tỉnh",
+        "region": "Duyên hải Nam Trung Bộ",
+        "merged": true,
+        "merged_from": [
+          "Khánh Hòa",
+          "Ninh Thuận"
+        ],
+        "capital": "Nha Trang",
+        "slug": "khanh-hoa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1967,
+          12.2388
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "66",
+        "name": "Đắk Lắk",
+        "type": "Tỉnh",
+        "region": "Tây Nguyên",
+        "merged": true,
+        "merged_from": [
+          "Đắk Lắk",
+          "Phú Yên"
+        ],
+        "capital": "Buôn Ma Thuột",
+        "slug": "dak-lak"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.0372,
+          12.6664
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "68",
+        "name": "Lâm Đồng",
+        "type": "Tỉnh",
+        "region": "Tây Nguyên",
+        "merged": true,
+        "merged_from": [
+          "Lâm Đồng",
+          "Đắk Nông",
+          "Bình Thuận"
+        ],
+        "capital": "Đà Lạt",
+        "slug": "lam-dong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.4583,
+          11.9404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "75",
+        "name": "Đồng Nai",
+        "type": "Tỉnh",
+        "region": "Đông Nam Bộ",
+        "merged": true,
+        "merged_from": [
+          "Đồng Nai",
+          "Bình Phước"
+        ],
+        "capital": "Biên Hòa",
+        "slug": "dong-nai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8243,
+          10.9447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "79",
+        "name": "Hồ Chí Minh",
+        "type": "Thành phố",
+        "region": "Đông Nam Bộ",
+        "merged": true,
+        "merged_from": [
+          "Thành phố Hồ Chí Minh",
+          "Bình Dương",
+          "Bà Rịa - Vũng Tàu"
+        ],
+        "capital": "Thành phố Hồ Chí Minh",
+        "slug": "ho-chi-minh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7009,
+          10.7769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "80",
+        "name": "Tây Ninh",
+        "type": "Tỉnh",
+        "region": "Đông Nam Bộ",
+        "merged": true,
+        "merged_from": [
+          "Tây Ninh",
+          "Long An"
+        ],
+        "capital": "Tây Ninh",
+        "slug": "tay-ninh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0983,
+          11.31
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "82",
+        "name": "Đồng Tháp",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Cửu Long",
+        "merged": true,
+        "merged_from": [
+          "Đồng Tháp",
+          "Tiền Giang"
+        ],
+        "capital": "Cao Lãnh",
+        "slug": "dong-thap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.6882,
+          10.4938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "86",
+        "name": "Vĩnh Long",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Cửu Long",
+        "merged": true,
+        "merged_from": [
+          "Vĩnh Long",
+          "Bến Tre",
+          "Trà Vinh"
+        ],
+        "capital": "Vĩnh Long",
+        "slug": "vinh-long"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9572,
+          10.2397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "91",
+        "name": "An Giang",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Cửu Long",
+        "merged": true,
+        "merged_from": [
+          "An Giang",
+          "Kiên Giang"
+        ],
+        "capital": "Long Xuyên",
+        "slug": "an-giang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1259,
+          10.5216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "92",
+        "name": "Cần Thơ",
+        "type": "Thành phố",
+        "region": "Đồng bằng sông Cửu Long",
+        "merged": true,
+        "merged_from": [
+          "Cần Thơ",
+          "Sóc Trăng",
+          "Hậu Giang"
+        ],
+        "capital": "Cần Thơ",
+        "slug": "can-tho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.7469,
+          10.0452
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "code": "96",
+        "name": "Cà Mau",
+        "type": "Tỉnh",
+        "region": "Đồng bằng sông Cửu Long",
+        "merged": true,
+        "merged_from": [
+          "Cà Mau",
+          "Bạc Liêu"
+        ],
+        "capital": "Cà Mau",
+        "slug": "ca-mau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1524,
+          9.1769
+        ]
+      }
+    }
+  ]
+}

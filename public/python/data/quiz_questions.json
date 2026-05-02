@@ -1,0 +1,2162 @@
+[
+  {
+    "id": 1,
+    "category": "1",
+    "question": "Món ăn nào là đặc sản nổi tiếng của Hà Nội?",
+    "choices": {
+      "A": "Mì Quảng",
+      "B": "Bún bò Huế",
+      "C": "Phở",
+      "D": "Hủ tiếu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 2,
+    "category": "1",
+    "question": "Hồ nào nổi tiếng nằm giữa trung tâm Hà Nội?",
+    "choices": {
+      "A": "Hồ Tây",
+      "B": "Hồ Gươm",
+      "C": "Hồ Ba Bể",
+      "D": "Hồ Trị An"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 3,
+    "category": "1",
+    "question": "Văn Miếu – Quốc Tử Giám là nơi gắn liền với điều gì?",
+    "choices": {
+      "A": "Thiên nhiên",
+      "B": "Học tập, khoa bảng",
+      "C": "Chiến tranh",
+      "D": "Âm nhạc"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 4,
+    "category": "1",
+    "question": "Lễ hội Gióng được tổ chức để tưởng nhớ ai?",
+    "choices": {
+      "A": "Thánh Gióng",
+      "B": "Trần Hưng Đạo",
+      "C": "Lý Thái Tổ",
+      "D": "Hai Bà Trưng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 5,
+    "category": "1",
+    "question": "Hà Nội từng là kinh đô của triều đại nào?",
+    "choices": {
+      "A": "Trần",
+      "B": "Nguyễn",
+      "C": "Lý",
+      "D": "Lê"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 6,
+    "category": "2",
+    "question": "Thác nổi tiếng nhất ở Cao Bằng là gì?",
+    "choices": {
+      "A": "Thác Khe Vằn",
+      "B": "Thác Cam Ly",
+      "C": "Thác Datanla",
+      "D": "Thác Bản Giốc"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 7,
+    "category": "2",
+    "question": "Khu di tích Pác Bó gắn liền với ai?",
+    "choices": {
+      "A": "Hồ Chí Minh",
+      "B": "Võ Nguyên Giáp",
+      "C": "Trần Phú",
+      "D": "Phạm Văn Đồng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 8,
+    "category": "2",
+    "question": "Món bánh đặc sản của Cao Bằng là gì?",
+    "choices": {
+      "A": "Bánh xèo",
+      "B": "Bánh cuốn trứng",
+      "C": "Bánh bèo",
+      "D": "Bánh hỏi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 9,
+    "category": "2",
+    "question": "Cao Bằng giáp với quốc gia nào?",
+    "choices": {
+      "A": "Trung Quốc",
+      "B": "Lào",
+      "C": "Campuchia",
+      "D": "Thái Lan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 10,
+    "category": "2",
+    "question": "Dòng sông chảy qua Pác Bó có tên là gì?",
+    "choices": {
+      "A": "Suối Cam",
+      "B": "Suối Giang",
+      "C": "Suối Lê Nin",
+      "D": "Suối Nước Mặn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 11,
+    "category": "3",
+    "question": "Tuyên Quang được mệnh danh là gì?",
+    "choices": {
+      "A": "Thành phố sương mù",
+      "B": "Thành phố hoa phượng đỏ",
+      "C": "Thủ đô kháng chiến",
+      "D": "Thủ đô cà phê"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 12,
+    "category": "3",
+    "question": "Lễ hội lớn nổi tiếng ở Tuyên Quang là gì?",
+    "choices": {
+      "A": "Lễ hội Thành Tuyên",
+      "B": "Lễ hội chọi trâu",
+      "C": "Lễ hội Đền Hùng",
+      "D": "Lễ hội cà phê"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 13,
+    "category": "3",
+    "question": "Đặc sản chè nổi tiếng của Tuyên Quang là vùng nào?",
+    "choices": {
+      "A": "Tân Cương",
+      "B": "Na Hang",
+      "C": "Sơn Dương",
+      "D": "Mỹ Lâm"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 14,
+    "category": "3",
+    "question": "Hồ Na Hang nổi tiếng với cảnh gì?",
+    "choices": {
+      "A": "Núi đá vôi và sông nước",
+      "B": "Đồng bằng rộng lớn",
+      "C": "Rừng tràm",
+      "D": "Cồn cát"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 15,
+    "category": "3",
+    "question": "Tuyên Quang thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Tây Bắc",
+      "B": "Đông Bắc",
+      "C": "Bắc Trung Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 16,
+    "category": "4",
+    "question": "Chiến thắng Điện Biên Phủ diễn ra năm nào?",
+    "choices": {
+      "A": "1945",
+      "B": "1954",
+      "C": "1965",
+      "D": "1975"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "category": "4",
+    "question": "Tướng nào chỉ huy chiến dịch Điện Biên Phủ?",
+    "choices": {
+      "A": "Lê Lợi",
+      "B": "Nguyễn Huệ",
+      "C": "Trần Hưng Đạo",
+      "D": "Võ Nguyên Giáp"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 18,
+    "category": "4",
+    "question": "Đặc sản nổi tiếng của Điện Biên là gì?",
+    "choices": {
+      "A": "Mì Quảng",
+      "B": "Cà phê Buôn Ma Thuột",
+      "C": "Phở bò",
+      "D": "Gạo tám Điện Biên"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 19,
+    "category": "4",
+    "question": "Điện Biên thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Tây Bắc",
+      "B": "Đông Bắc",
+      "C": "Trung Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 20,
+    "category": "4",
+    "question": "Biểu tượng chiến thắng Điện Biên Phủ là gì?",
+    "choices": {
+      "A": "Nhà rông",
+      "B": "Tượng đài chiến thắng",
+      "C": "Cầu treo",
+      "D": "Đài phun nước"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 21,
+    "category": "5",
+    "question": "Lai Châu nổi tiếng với đỉnh núi nào?",
+    "choices": {
+      "A": "Ba Vì",
+      "B": "Phan Xi Păng",
+      "C": "Ngọc Linh",
+      "D": "Pu Si Lung"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 22,
+    "category": "5",
+    "question": "Sông nào chảy qua Lai Châu?",
+    "choices": {
+      "A": "Sông Đà",
+      "B": "Sông Mã",
+      "C": "Sông Lam",
+      "D": "Sông Cửu Long"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 23,
+    "category": "5",
+    "question": "Lai Châu giáp với nước nào?",
+    "choices": {
+      "A": "Lào",
+      "B": "Trung Quốc",
+      "C": "Campuchia",
+      "D": "Thái Lan"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 24,
+    "category": "5",
+    "question": "Đặc sản nổi tiếng của Lai Châu là gì?",
+    "choices": {
+      "A": "Bánh cuốn",
+      "B": "Bún bò",
+      "C": "Chè shan tuyết",
+      "D": "Cà phê"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 25,
+    "category": "5",
+    "question": "Lễ hội đặc sắc của người Thái ở Lai Châu là gì?",
+    "choices": {
+      "A": "Lễ hội Xên Mường",
+      "B": "Lễ hội Chọi trâu",
+      "C": "Lễ hội Bà Thu Bồn",
+      "D": "Lễ hội Đền Hùng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "category": "6",
+    "question": "Đặc sản nổi tiếng của Sơn La là gì?",
+    "choices": {
+      "A": "Sữa Mộc Châu",
+      "B": "Nem chua",
+      "C": "Cà phê",
+      "D": "Bún bò"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 27,
+    "category": "6",
+    "question": "Cao nguyên nào nổi tiếng ở Sơn La?",
+    "choices": {
+      "A": "Lâm Đồng",
+      "B": "Mộc Châu",
+      "C": "Kon Tum",
+      "D": "Pleiku"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "category": "6",
+    "question": "Sơn La có loại trái cây đặc sản nào?",
+    "choices": {
+      "A": "Mận hậu",
+      "B": "Sầu riêng",
+      "C": "Vải thiều",
+      "D": "Cam sành"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "category": "6",
+    "question": "Dòng sông lớn chảy qua Sơn La là gì?",
+    "choices": {
+      "A": "Sông Thu Bồn",
+      "B": "Sông Lam",
+      "C": "Sông Hồng",
+      "D": "Sông Đà"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 30,
+    "category": "6",
+    "question": "Sơn La thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Tây Nguyên",
+      "B": "Bắc Trung Bộ",
+      "C": "Đông Bắc",
+      "D": "Tây Bắc"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 31,
+    "category": "7",
+    "question": "Lào Cai có địa danh du lịch nổi tiếng nào?",
+    "choices": {
+      "A": "Bà Nà Hills",
+      "B": "Mộc Châu",
+      "C": "Tam Đảo",
+      "D": "Sa Pa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 32,
+    "category": "7",
+    "question": "Đỉnh núi cao nhất Việt Nam nằm ở Lào Cai là gì?",
+    "choices": {
+      "A": "Fansipan",
+      "B": "Ngọc Linh",
+      "C": "Ba Vì",
+      "D": "Tam Đảo"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 33,
+    "category": "7",
+    "question": "Lào Cai giáp với nước nào?",
+    "choices": {
+      "A": "Lào",
+      "B": "Trung Quốc",
+      "C": "Campuchia",
+      "D": "Thái Lan"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 34,
+    "category": "7",
+    "question": "Đặc sản của Sa Pa là gì?",
+    "choices": {
+      "A": "Thắng cố",
+      "B": "Bún bò",
+      "C": "Hủ tiếu",
+      "D": "Cơm hến"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 35,
+    "category": "7",
+    "question": "Loài hoa đặc trưng của Sa Pa là gì?",
+    "choices": {
+      "A": "Hoa đào",
+      "B": "Hoa sen",
+      "C": "Hoa đỗ quyên",
+      "D": "Hoa cúc"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 36,
+    "category": "8",
+    "question": "Đặc sản nổi tiếng nhất Thái Nguyên là gì?",
+    "choices": {
+      "A": "Bưởi Phúc Trạch",
+      "B": "Cà phê Buôn Ma Thuột",
+      "C": "Chè Tân Cương",
+      "D": "Mật ong"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 37,
+    "category": "8",
+    "question": "Thái Nguyên thuộc vùng nào?",
+    "choices": {
+      "A": "Bắc Trung Bộ",
+      "B": "Tây Nguyên",
+      "C": "Trung du miền núi Bắc Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 38,
+    "category": "8",
+    "question": "Khu di tích lịch sử nổi tiếng ở Thái Nguyên là gì?",
+    "choices": {
+      "A": "ATK Định Hóa",
+      "B": "Pác Bó",
+      "C": "Tân Trào",
+      "D": "Ba Đình"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 39,
+    "category": "8",
+    "question": "Sông nào chảy qua Thái Nguyên?",
+    "choices": {
+      "A": "Sông Cầu",
+      "B": "Sông Hồng",
+      "C": "Sông Mã",
+      "D": "Sông Lam"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 40,
+    "category": "8",
+    "question": "Lễ hội đặc sắc của Thái Nguyên là gì?",
+    "choices": {
+      "A": "Lễ hội cà phê",
+      "B": "Lễ hội chè",
+      "C": "Lễ hội đua voi",
+      "D": "Lễ hội hoa"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 41,
+    "category": "9",
+    "question": "Cửa khẩu nổi tiếng ở Lạng Sơn là gì?",
+    "choices": {
+      "A": "Mộc Bài",
+      "B": "Hữu Nghị",
+      "C": "Lao Bảo",
+      "D": "Cha Lo"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 42,
+    "category": "9",
+    "question": "Đặc sản nổi tiếng của Lạng Sơn là gì?",
+    "choices": {
+      "A": "Vịt quay",
+      "B": "Bún chả",
+      "C": "Mì Quảng",
+      "D": "Cơm tấm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 43,
+    "category": "9",
+    "question": "Lạng Sơn nổi tiếng với hang động nào?",
+    "choices": {
+      "A": "Tràng An",
+      "B": "Phong Nha",
+      "C": "Sơn Đoòng",
+      "D": "Nhị Thanh – Tam Thanh"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 44,
+    "category": "9",
+    "question": "Lạng Sơn giáp với quốc gia nào?",
+    "choices": {
+      "A": "Trung Quốc",
+      "B": "Lào",
+      "C": "Campuchia",
+      "D": "Thái Lan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 45,
+    "category": "9",
+    "question": "Lễ hội lớn nhất ở Lạng Sơn là gì?",
+    "choices": {
+      "A": "Lễ hội Gióng",
+      "B": "Lễ hội đua voi",
+      "C": "Lễ hội Đền Hùng",
+      "D": "Lễ hội Kỳ Lừa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 46,
+    "category": "10",
+    "question": "Danh thắng nổi tiếng nhất Quảng Ninh là gì?",
+    "choices": {
+      "A": "Hồ Tây",
+      "B": "Vịnh Nha Trang",
+      "C": "Hồ Ba Bể",
+      "D": "Vịnh Hạ Long"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 47,
+    "category": "10",
+    "question": "Quảng Ninh có đặc sản nổi tiếng nào?",
+    "choices": {
+      "A": "Sá sùng",
+      "B": "Bún bò",
+      "C": "Phở",
+      "D": "Nem chua"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "category": "10",
+    "question": "Thành phố du lịch lớn của Quảng Ninh là gì?",
+    "choices": {
+      "A": "Sapa",
+      "B": "Hạ Long",
+      "C": "Đà Lạt",
+      "D": "Huế"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 49,
+    "category": "10",
+    "question": "Quảng Ninh có đường biên giới với quốc gia nào?",
+    "choices": {
+      "A": "Trung Quốc",
+      "B": "Lào",
+      "C": "Campuchia",
+      "D": "Thái Lan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 50,
+    "category": "10",
+    "question": "Mỏ khoáng sản nổi tiếng của Quảng Ninh là gì?",
+    "choices": {
+      "A": "Dầu mỏ",
+      "B": "Than đá",
+      "C": "Bô xít",
+      "D": "Muối"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 51,
+    "category": "11",
+    "question": "Làng quan họ nổi tiếng thuộc tỉnh nào?",
+    "choices": {
+      "A": "Bắc Giang",
+      "B": "Bắc Ninh",
+      "C": "Thái Nguyên",
+      "D": "Hải Dương"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 52,
+    "category": "11",
+    "question": "Đặc sản nổi tiếng của Bắc Ninh là gì?",
+    "choices": {
+      "A": "Bánh phu thê Đình Bảng",
+      "B": "Bánh cốm",
+      "C": "Bánh nậm",
+      "D": "Bánh ít"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 53,
+    "category": "11",
+    "question": "Lễ hội nào nổi tiếng ở Bắc Ninh?",
+    "choices": {
+      "A": "Lễ hội Lim",
+      "B": "Lễ hội Đền Hùng",
+      "C": "Lễ hội Chọi trâu",
+      "D": "Lễ hội Cà phê"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 54,
+    "category": "11",
+    "question": "Dòng sông chảy qua Bắc Ninh là sông nào?",
+    "choices": {
+      "A": "Sông Đuống",
+      "B": "Sông Hương",
+      "C": "Sông Lam",
+      "D": "Sông Mã"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 55,
+    "category": "11",
+    "question": "Bắc Ninh từng là quê hương của vị vua nào?",
+    "choices": {
+      "A": "Quang Trung",
+      "B": "Trần Nhân Tông",
+      "C": "Lý Thái Tổ",
+      "D": "Lê Lợi"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 56,
+    "category": "12",
+    "question": "Tỉnh nào được xem là đất Tổ của dân tộc Việt Nam?",
+    "choices": {
+      "A": "Ninh Bình",
+      "B": "Hà Nội",
+      "C": "Phú Thọ",
+      "D": "Thanh Hóa"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 57,
+    "category": "12",
+    "question": "Lễ hội Đền Hùng được tổ chức vào ngày nào?",
+    "choices": {
+      "A": "Mùng 10 tháng 3 âm lịch",
+      "B": "Mùng 1 Tết",
+      "C": "Rằm tháng 8",
+      "D": "Mùng 5 tháng 5"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 58,
+    "category": "12",
+    "question": "Đặc sản nổi tiếng của Phú Thọ là gì?",
+    "choices": {
+      "A": "Bưởi Đoan Hùng",
+      "B": "Vải thiều",
+      "C": "Nhãn lồng",
+      "D": "Bánh phu thê"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 59,
+    "category": "12",
+    "question": "Di tích lịch sử nổi tiếng ở Phú Thọ là gì?",
+    "choices": {
+      "A": "Đền Hùng",
+      "B": "Văn Miếu",
+      "C": "Chùa Một Cột",
+      "D": "Ngọ Môn"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 60,
+    "category": "12",
+    "question": "Phú Thọ thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Bắc Trung Bộ",
+      "B": "Tây Nguyên",
+      "C": "Nam Bộ",
+      "D": "Trung du miền núi Bắc Bộ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 61,
+    "category": "13",
+    "question": "Thành phố nào là cảng biển lớn của miền Bắc Việt Nam?",
+    "choices": {
+      "A": "Nha Trang",
+      "B": "Hạ Long",
+      "C": "Đà Nẵng",
+      "D": "Hải Phòng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 62,
+    "category": "13",
+    "question": "Đặc sản nổi tiếng của Hải Phòng là gì?",
+    "choices": {
+      "A": "Bánh đa cua",
+      "B": "Bún bò Huế",
+      "C": "Mì Quảng",
+      "D": "Cơm hến"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 63,
+    "category": "13",
+    "question": "Biểu tượng nổi tiếng của Hải Phòng là gì?",
+    "choices": {
+      "A": "Hoa cúc",
+      "B": "Hoa sen",
+      "C": "Hoa đào",
+      "D": "Hoa phượng đỏ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 64,
+    "category": "13",
+    "question": "Cảng biển chính của Hải Phòng là gì?",
+    "choices": {
+      "A": "Cảng Đình Vũ",
+      "B": "Cảng Tiên Sa",
+      "C": "Cảng Sài Gòn",
+      "D": "Cảng Cái Mép"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 65,
+    "category": "13",
+    "question": "Hải Phòng còn được gọi là gì?",
+    "choices": {
+      "A": "Thành phố sương mù",
+      "B": "Thành phố hoa phượng đỏ",
+      "C": "Thành phố ngàn hoa",
+      "D": "Thành phố biển xanh"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 66,
+    "category": "14",
+    "question": "Hưng Yên nổi tiếng với loại trái cây nào?",
+    "choices": {
+      "A": "Vải thiều",
+      "B": "Nhãn lồng",
+      "C": "Bưởi da xanh",
+      "D": "Cam sành"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 67,
+    "category": "14",
+    "question": "Lễ hội Phố Hiến nổi tiếng được tổ chức ở tỉnh nào?",
+    "choices": {
+      "A": "Hưng Yên",
+      "B": "Bắc Ninh",
+      "C": "Ninh Bình",
+      "D": "Nam Định"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 68,
+    "category": "14",
+    "question": "Đặc sản nổi tiếng khác của Hưng Yên là gì?",
+    "choices": {
+      "A": "Tương Bần",
+      "B": "Nước mắm Phú Quốc",
+      "C": "Mắm tôm",
+      "D": "Bánh cốm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 69,
+    "category": "14",
+    "question": "Hưng Yên nằm trong vùng kinh tế nào?",
+    "choices": {
+      "A": "Đồng bằng sông Hồng",
+      "B": "Tây Nguyên",
+      "C": "Bắc Trung Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 70,
+    "category": "14",
+    "question": "Hưng Yên giáp với thành phố nào?",
+    "choices": {
+      "A": "Hải Phòng",
+      "B": "Huế",
+      "C": "Hà Nội",
+      "D": "Đà Nẵng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 71,
+    "category": "15",
+    "question": "Ninh Bình nổi tiếng với danh thắng nào?",
+    "choices": {
+      "A": "Hạ Long",
+      "B": "Phong Nha",
+      "C": "Tràng An",
+      "D": "Tam Đảo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 72,
+    "category": "15",
+    "question": "Đặc sản nổi tiếng của Ninh Bình là gì?",
+    "choices": {
+      "A": "Cơm cháy",
+      "B": "Bún bò",
+      "C": "Bánh cuốn",
+      "D": "Mì Quảng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 73,
+    "category": "15",
+    "question": "Khu du lịch tâm linh nổi tiếng ở Ninh Bình là gì?",
+    "choices": {
+      "A": "Chùa Một Cột",
+      "B": "Chùa Thiên Mụ",
+      "C": "Chùa Hương",
+      "D": "Chùa Bái Đính"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 74,
+    "category": "15",
+    "question": "Ninh Bình từng là kinh đô của triều đại nào?",
+    "choices": {
+      "A": "Đinh – Tiền Lê",
+      "B": "Nguyễn",
+      "C": "Trần",
+      "D": "Lý"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 75,
+    "category": "15",
+    "question": "Động nổi tiếng ở Ninh Bình là gì?",
+    "choices": {
+      "A": "Hương Tích",
+      "B": "Sơn Đoòng",
+      "C": "Phong Nha",
+      "D": "Tam Cốc – Bích Động"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 76,
+    "category": "16",
+    "question": "Thanh Hóa nổi tiếng với đặc sản nào?",
+    "choices": {
+      "A": "Cơm hến",
+      "B": "Bánh phu thê",
+      "C": "Bún bò",
+      "D": "Nem chua"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 77,
+    "category": "16",
+    "question": "Di tích Lam Kinh ở Thanh Hóa gắn liền với ai?",
+    "choices": {
+      "A": "Lê Lợi",
+      "B": "Quang Trung",
+      "C": "Trần Nhân Tông",
+      "D": "Lý Thái Tổ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 78,
+    "category": "16",
+    "question": "Biển nổi tiếng ở Thanh Hóa là gì?",
+    "choices": {
+      "A": "Nha Trang",
+      "B": "Cửa Lò",
+      "C": "Sầm Sơn",
+      "D": "Vũng Tàu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 79,
+    "category": "16",
+    "question": "Thanh Hóa thuộc vùng nào?",
+    "choices": {
+      "A": "Bắc Trung Bộ",
+      "B": "Tây Nguyên",
+      "C": "Đông Bắc",
+      "D": "Nam Bộ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 80,
+    "category": "16",
+    "question": "Loại bánh dân gian nổi tiếng ở Thanh Hóa là gì?",
+    "choices": {
+      "A": "Bánh chưng",
+      "B": "Bánh gai Tứ Trụ",
+      "C": "Bánh ít",
+      "D": "Bánh xèo"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 81,
+    "category": "17",
+    "question": "Nghệ An là quê hương của vị lãnh tụ nào?",
+    "choices": {
+      "A": "Lê Lợi",
+      "B": "Hồ Chí Minh",
+      "C": "Trần Hưng Đạo",
+      "D": "Phan Bội Châu"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 82,
+    "category": "17",
+    "question": "Bãi biển nổi tiếng ở Nghệ An là gì?",
+    "choices": {
+      "A": "Cửa Lò",
+      "B": "Sầm Sơn",
+      "C": "Nha Trang",
+      "D": "Cửa Tùng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 83,
+    "category": "17",
+    "question": "Đặc sản nổi tiếng của Nghệ An là gì?",
+    "choices": {
+      "A": "Phở",
+      "B": "Mì Quảng",
+      "C": "Bún riêu",
+      "D": "Nhút Thanh Chương"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 84,
+    "category": "17",
+    "question": "Lễ hội lớn ở Nghệ An tưởng nhớ Bác Hồ được tổ chức ở đâu?",
+    "choices": {
+      "A": "Làng Sen",
+      "B": "Đình Bảng",
+      "C": "Lam Kinh",
+      "D": "Phú Đa"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 85,
+    "category": "17",
+    "question": "Nghệ An nằm ở vùng nào?",
+    "choices": {
+      "A": "Đông Bắc",
+      "B": "Tây Nguyên",
+      "C": "Bắc Trung Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 86,
+    "category": "18",
+    "question": "Hà Tĩnh nổi tiếng với đặc sản nào?",
+    "choices": {
+      "A": "Bún bò",
+      "B": "Bánh chưng",
+      "C": "Kẹo cu đơ",
+      "D": "Bánh bèo"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 87,
+    "category": "18",
+    "question": "Danh nhân nổi tiếng quê ở Hà Tĩnh là ai?",
+    "choices": {
+      "A": "Nguyễn Du",
+      "B": "Nguyễn Trãi",
+      "C": "Lý Thường Kiệt",
+      "D": "Quang Trung"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 88,
+    "category": "18",
+    "question": "Biển nổi tiếng ở Hà Tĩnh là gì?",
+    "choices": {
+      "A": "Nha Trang",
+      "B": "Cửa Lò",
+      "C": "Nhật Lệ",
+      "D": "Thiên Cầm"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 89,
+    "category": "18",
+    "question": "Bài thơ “Truyện Kiều” gắn liền với tác giả nào của Hà Tĩnh?",
+    "choices": {
+      "A": "Nguyễn Du",
+      "B": "Tố Hữu",
+      "C": "Hồ Xuân Hương",
+      "D": "Nguyễn Bỉnh Khiêm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 90,
+    "category": "18",
+    "question": "Hà Tĩnh thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Nam Bộ",
+      "B": "Trung du Bắc Bộ",
+      "C": "Tây Nguyên",
+      "D": "Bắc Trung Bộ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 91,
+    "category": "19",
+    "question": "Quảng Trị nổi tiếng với địa danh lịch sử nào?",
+    "choices": {
+      "A": "Sầm Sơn",
+      "B": "Cố đô Huế",
+      "C": "Phong Nha",
+      "D": "Thành cổ Quảng Trị"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 92,
+    "category": "19",
+    "question": "Sông nào chảy qua Quảng Trị?",
+    "choices": {
+      "A": "Sông Bến Hải",
+      "B": "Sông Lam",
+      "C": "Sông Hương",
+      "D": "Sông Hồng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 93,
+    "category": "19",
+    "question": "Cầu Hiền Lương – sông Bến Hải từng chia đôi gì?",
+    "choices": {
+      "A": "Hai xã",
+      "B": "Hai tỉnh",
+      "C": "Hai miền Nam – Bắc",
+      "D": "Hai huyện"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 94,
+    "category": "19",
+    "question": "Đặc sản nổi tiếng của Quảng Trị là gì?",
+    "choices": {
+      "A": "Tiêu Cùa",
+      "B": "Cà phê",
+      "C": "Bánh tráng",
+      "D": "Mè xửng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 95,
+    "category": "19",
+    "question": "Vị trí Quảng Trị nằm ở vùng nào?",
+    "choices": {
+      "A": "Tây Nguyên",
+      "B": "Bắc Trung Bộ",
+      "C": "Nam Bộ",
+      "D": "Đông Bắc"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 96,
+    "category": "20",
+    "question": "Huế nổi tiếng với di sản nào?",
+    "choices": {
+      "A": "Phố cổ",
+      "B": "Quần thể di tích cố đô",
+      "C": "Vịnh biển",
+      "D": "Núi đá"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 97,
+    "category": "20",
+    "question": "Món ăn đặc sản của Huế là gì?",
+    "choices": {
+      "A": "Bún bò Huế",
+      "B": "Phở",
+      "C": "Mì Quảng",
+      "D": "Bánh canh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 98,
+    "category": "20",
+    "question": "Dòng sông chảy qua Huế là gì?",
+    "choices": {
+      "A": "Sông Cửu Long",
+      "B": "Sông Lam",
+      "C": "Sông Đà",
+      "D": "Sông Hương"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 99,
+    "category": "20",
+    "question": "Lễ hội lớn nhất ở Huế là gì?",
+    "choices": {
+      "A": "Festival Huế",
+      "B": "Lễ hội Đền Hùng",
+      "C": "Lễ hội Lim",
+      "D": "Lễ hội hoa"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 100,
+    "category": "20",
+    "question": "Nhân vật lịch sử nào gắn liền với triều Nguyễn ở Huế?",
+    "choices": {
+      "A": "Vua Gia Long",
+      "B": "Lý Thái Tổ",
+      "C": "Lê Thánh Tông",
+      "D": "Quang Trung"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 101,
+    "category": "21",
+    "question": "Cầu nổi tiếng bắc qua sông Hàn ở Đà Nẵng là gì?",
+    "choices": {
+      "A": "Cầu Cần Thơ",
+      "B": "Cầu Tràng Tiền",
+      "C": "Cầu Long Biên",
+      "D": "Cầu Rồng"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 102,
+    "category": "21",
+    "question": "Món ăn đặc sản của Đà Nẵng là gì?",
+    "choices": {
+      "A": "Mì Quảng",
+      "B": "Bún bò Huế",
+      "C": "Phở",
+      "D": "Hủ tiếu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 103,
+    "category": "21",
+    "question": "Bãi biển nổi tiếng ở Đà Nẵng là gì?",
+    "choices": {
+      "A": "Cửa Lò",
+      "B": "Nha Trang",
+      "C": "Mỹ Khê",
+      "D": "Thiên Cầm"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 104,
+    "category": "21",
+    "question": "Ngọn núi nổi tiếng ở Đà Nẵng là gì?",
+    "choices": {
+      "A": "Ngũ Hành Sơn",
+      "B": "Ba Vì",
+      "C": "Bà Nà",
+      "D": "Fansipan"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 105,
+    "category": "21",
+    "question": "Khu du lịch nổi tiếng nằm trên núi của Đà Nẵng là gì?",
+    "choices": {
+      "A": "Mộc Châu",
+      "B": "Tam Đảo",
+      "C": "Sa Pa",
+      "D": "Bà Nà Hills"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 106,
+    "category": "22",
+    "question": "Tỉnh Quảng Ngãi có địa danh du lịch nổi tiếng nào?",
+    "choices": {
+      "A": "Cô Tô",
+      "B": "Cù Lao Chàm",
+      "C": "Phú Quốc",
+      "D": "Đảo Lý Sơn"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 107,
+    "category": "22",
+    "question": "Đặc sản nổi tiếng của Quảng Ngãi là gì?",
+    "choices": {
+      "A": "Kẹo gương",
+      "B": "Bún bò",
+      "C": "Cơm hến",
+      "D": "Bánh tráng"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 108,
+    "category": "22",
+    "question": "Quảng Ngãi thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Bắc Trung Bộ",
+      "B": "Tây Nguyên",
+      "C": "Duyên hải Nam Trung Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 109,
+    "category": "22",
+    "question": "Nhà yêu nước Trương Quang Trọng là người tỉnh nào?",
+    "choices": {
+      "A": "Quảng Ngãi",
+      "B": "Quảng Nam",
+      "C": "Huế",
+      "D": "Nghệ An"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 110,
+    "category": "22",
+    "question": "Bãi biển đẹp nổi tiếng ở Quảng Ngãi là gì?",
+    "choices": {
+      "A": "Mỹ Khê",
+      "B": "Sa Huỳnh",
+      "C": "Cửa Đại",
+      "D": "Nha Trang"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 111,
+    "category": "23",
+    "question": "Đặc sản nổi tiếng của Gia Lai là gì?",
+    "choices": {
+      "A": "Phở bò",
+      "B": "Cà phê Pleiku",
+      "C": "Mì Quảng",
+      "D": "Bánh cuốn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 112,
+    "category": "23",
+    "question": "Hồ nổi tiếng ở Gia Lai là gì?",
+    "choices": {
+      "A": "Biển Hồ (Hồ T’Nưng)",
+      "B": "Hồ Tây",
+      "C": "Hồ Ba Bể",
+      "D": "Hồ Trị An"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 113,
+    "category": "23",
+    "question": "Gia Lai thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Bắc Trung Bộ",
+      "B": "Trung du Bắc Bộ",
+      "C": "Nam Bộ",
+      "D": "Tây Nguyên"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 114,
+    "category": "23",
+    "question": "Lễ hội đặc sắc của người Ba Na ở Gia Lai là gì?",
+    "choices": {
+      "A": "Lễ hội đâm trâu",
+      "B": "Lễ hội Lim",
+      "C": "Lễ hội đua voi",
+      "D": "Lễ hội cà phê"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 115,
+    "category": "23",
+    "question": "Thành phố lớn của Gia Lai là gì?",
+    "choices": {
+      "A": "Kon Tum",
+      "B": "Buôn Ma Thuột",
+      "C": "Pleiku",
+      "D": "Đà Lạt"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 116,
+    "category": "24",
+    "question": "Tỉnh Khánh Hòa có thành phố biển nổi tiếng nào?",
+    "choices": {
+      "A": "Quy Nhơn",
+      "B": "Đà Nẵng",
+      "C": "Nha Trang",
+      "D": "Phan Thiết"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 117,
+    "category": "24",
+    "question": "Món ăn đặc sản nổi tiếng của Khánh Hòa là gì?",
+    "choices": {
+      "A": "Yến sào",
+      "B": "Bún chả",
+      "C": "Phở",
+      "D": "Bánh nậm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 118,
+    "category": "24",
+    "question": "Quần đảo Trường Sa thuộc tỉnh nào?",
+    "choices": {
+      "A": "Đà Nẵng",
+      "B": "Quảng Ngãi",
+      "C": "Khánh Hòa",
+      "D": "Bình Thuận"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 119,
+    "category": "24",
+    "question": "Bãi biển đẹp nổi tiếng ở Khánh Hòa là gì?",
+    "choices": {
+      "A": "Dốc Lết",
+      "B": "Cửa Lò",
+      "C": "Cửa Đại",
+      "D": "Ninh Chữ"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 120,
+    "category": "24",
+    "question": "Lễ hội cầu ngư là lễ hội truyền thống của vùng nào?",
+    "choices": {
+      "A": "Hà Giang",
+      "B": "Tây Ninh",
+      "C": "Đắk Lắk",
+      "D": "Khánh Hòa"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 121,
+    "category": "25",
+    "question": "Đặc sản nổi tiếng của Đắk Lắk là gì?",
+    "choices": {
+      "A": "Cơm cháy",
+      "B": "Chè Tân Cương",
+      "C": "Trà Shan Tuyết",
+      "D": "Cà phê Buôn Ma Thuột"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 122,
+    "category": "25",
+    "question": "Lễ hội lớn của người Ê Đê ở Đắk Lắk là gì?",
+    "choices": {
+      "A": "Lễ hội đua voi",
+      "B": "Lễ hội cà phê",
+      "C": "Lễ hội đâm trâu",
+      "D": "Lễ hội Xên Mường"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 123,
+    "category": "25",
+    "question": "Thủ phủ của Đắk Lắk là thành phố nào?",
+    "choices": {
+      "A": "Buôn Ma Thuột",
+      "B": "Pleiku",
+      "C": "Đà Lạt",
+      "D": "Kon Tum"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 124,
+    "category": "25",
+    "question": "Loại hoa đặc trưng của Đắk Lắk là gì?",
+    "choices": {
+      "A": "Hoa cà phê",
+      "B": "Hoa sen",
+      "C": "Hoa đào",
+      "D": "Hoa cúc"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 125,
+    "category": "25",
+    "question": "Đắk Lắk thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Nam Trung Bộ",
+      "B": "Tây Nguyên",
+      "C": "Bắc Trung Bộ",
+      "D": "Nam Bộ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 126,
+    "category": "26",
+    "question": "Đặc sản nổi tiếng của Lâm Đồng là gì?",
+    "choices": {
+      "A": "Bưởi Phúc Trạch",
+      "B": "Dâu tây Đà Lạt",
+      "C": "Vải thiều",
+      "D": "Nhãn lồng"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 127,
+    "category": "26",
+    "question": "Thành phố du lịch nổi tiếng của Lâm Đồng là gì?",
+    "choices": {
+      "A": "Đà Lạt",
+      "B": "Pleiku",
+      "C": "Buôn Ma Thuột",
+      "D": "Kon Tum"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 128,
+    "category": "26",
+    "question": "Loài hoa biểu tượng của Đà Lạt là gì?",
+    "choices": {
+      "A": "Hoa sen",
+      "B": "Hoa đào",
+      "C": "Hoa dã quỳ",
+      "D": "Hoa hồng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 129,
+    "category": "26",
+    "question": "Lâm Đồng thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Tây Nguyên",
+      "B": "Bắc Trung Bộ",
+      "C": "Nam Bộ",
+      "D": "Đông Bắc"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 130,
+    "category": "26",
+    "question": "Hồ nước nổi tiếng ở Đà Lạt là gì?",
+    "choices": {
+      "A": "Hồ Hoàn Kiếm",
+      "B": "Hồ Tây",
+      "C": "Hồ Xuân Hương",
+      "D": "Hồ Trị An"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 131,
+    "category": "27",
+    "question": "Tỉnh Đồng Nai có khu du lịch sinh thái nổi tiếng nào?",
+    "choices": {
+      "A": "Ba Bể",
+      "B": "Cần Giờ",
+      "C": "Bửu Long",
+      "D": "Mộc Châu"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 132,
+    "category": "27",
+    "question": "Dòng sông lớn chảy qua Đồng Nai là gì?",
+    "choices": {
+      "A": "Sông Đồng Nai",
+      "B": "Sông Hồng",
+      "C": "Sông Lam",
+      "D": "Sông Đà"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 133,
+    "category": "27",
+    "question": "Đặc sản nổi tiếng của Đồng Nai là gì?",
+    "choices": {
+      "A": "Dừa sáp",
+      "B": "Bưởi da xanh",
+      "C": "Chôm chôm Long Khánh",
+      "D": "Nhãn lồng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 134,
+    "category": "27",
+    "question": "Thành phố lớn thuộc tỉnh Đồng Nai là gì?",
+    "choices": {
+      "A": "Biên Hòa",
+      "B": "Vũng Tàu",
+      "C": "Cần Thơ",
+      "D": "Nha Trang"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 135,
+    "category": "27",
+    "question": "Đồng Nai nằm trong vùng nào?",
+    "choices": {
+      "A": "Nam Trung Bộ",
+      "B": "Tây Nguyên",
+      "C": "Bắc Trung Bộ",
+      "D": "Đông Nam Bộ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 136,
+    "category": "28",
+    "question": "Thành phố lớn nhất Việt Nam là gì?",
+    "choices": {
+      "A": "Hải Phòng",
+      "B": "Hà Nội",
+      "C": "Đà Nẵng",
+      "D": "TP. Hồ Chí Minh"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 137,
+    "category": "28",
+    "question": "Đặc sản nổi tiếng của TP. Hồ Chí Minh là gì?",
+    "choices": {
+      "A": "Cơm tấm",
+      "B": "Bún bò",
+      "C": "Mì Quảng",
+      "D": "Phở"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 138,
+    "category": "28",
+    "question": "Dòng sông lớn chảy qua TP. Hồ Chí Minh là gì?",
+    "choices": {
+      "A": "Sông Sài Gòn",
+      "B": "Sông Hồng",
+      "C": "Sông Lam",
+      "D": "Sông Đà"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 139,
+    "category": "28",
+    "question": "Chợ nổi tiếng nhất TP. Hồ Chí Minh là gì?",
+    "choices": {
+      "A": "Chợ Bến Thành",
+      "B": "Chợ Đồng Xuân",
+      "C": "Chợ Hàn",
+      "D": "Chợ Đầm"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 140,
+    "category": "28",
+    "question": "TP. Hồ Chí Minh còn có tên gọi trước đây là gì?",
+    "choices": {
+      "A": "Thăng Long",
+      "B": "Gia Định",
+      "C": "Phú Xuân",
+      "D": "Sài Gòn"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 141,
+    "category": "29",
+    "question": "Tây Ninh nổi tiếng với ngôi đền nào?",
+    "choices": {
+      "A": "Chùa Một Cột",
+      "B": "Đền Hùng",
+      "C": "Chùa Thiên Mụ",
+      "D": "Tòa Thánh Cao Đài"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 142,
+    "category": "29",
+    "question": "Núi nổi tiếng ở Tây Ninh là gì?",
+    "choices": {
+      "A": "Núi Ngũ Hành Sơn",
+      "B": "Núi Ba Vì",
+      "C": "Núi Bà Đen",
+      "D": "Núi Langbiang"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 143,
+    "category": "29",
+    "question": "Đặc sản nổi tiếng của Tây Ninh là gì?",
+    "choices": {
+      "A": "Bánh canh",
+      "B": "Muối tôm",
+      "C": "Bún bò",
+      "D": "Bánh hỏi"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 144,
+    "category": "29",
+    "question": "Tây Ninh thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Bắc Trung Bộ",
+      "B": "Đông Nam Bộ",
+      "C": "Tây Nguyên",
+      "D": "Nam Trung Bộ"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 145,
+    "category": "29",
+    "question": "Cửa khẩu quốc tế Mộc Bài thuộc tỉnh nào?",
+    "choices": {
+      "A": "Tây Ninh",
+      "B": "Long An",
+      "C": "An Giang",
+      "D": "Kiên Giang"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 146,
+    "category": "30",
+    "question": "Đồng Tháp nổi tiếng với loài hoa nào?",
+    "choices": {
+      "A": "Cúc",
+      "B": "Đào",
+      "C": "Hướng dương",
+      "D": "Sen"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 147,
+    "category": "30",
+    "question": "Khu du lịch Tràm Chim nổi tiếng thuộc tỉnh nào?",
+    "choices": {
+      "A": "An Giang",
+      "B": "Tiền Giang",
+      "C": "Cà Mau",
+      "D": "Đồng Tháp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 148,
+    "category": "30",
+    "question": "Đặc sản nổi tiếng của Đồng Tháp là gì?",
+    "choices": {
+      "A": "Hủ tiếu Sa Đéc",
+      "B": "Phở Hà Nội",
+      "C": "Bún bò",
+      "D": "Cơm hến"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 149,
+    "category": "30",
+    "question": "Đồng Tháp thuộc vùng nào?",
+    "choices": {
+      "A": "Tây Nguyên",
+      "B": "Bắc Trung Bộ",
+      "C": "Đồng bằng sông Cửu Long",
+      "D": "Đông Nam Bộ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 150,
+    "category": "30",
+    "question": "Nhà thơ nổi tiếng quê ở Đồng Tháp là ai?",
+    "choices": {
+      "A": "Nguyễn Sinh Sắc",
+      "B": "Nguyễn Bỉnh Khiêm",
+      "C": "Tản Đà",
+      "D": "Xuân Diệu"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 151,
+    "category": "31",
+    "question": "Vĩnh Long thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Đông Nam Bộ",
+      "B": "Bắc Trung Bộ",
+      "C": "Tây Nguyên",
+      "D": "Đồng bằng sông Cửu Long"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 152,
+    "category": "31",
+    "question": "Đặc sản nổi tiếng của Vĩnh Long là gì?",
+    "choices": {
+      "A": "Khoai lang Bình Tân",
+      "B": "Cơm hến",
+      "C": "Bún bò",
+      "D": "Bánh canh"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 153,
+    "category": "31",
+    "question": "Dòng sông lớn chảy qua Vĩnh Long là gì?",
+    "choices": {
+      "A": "Sông Hồng",
+      "B": "Sông Tiền",
+      "C": "Sông Đà",
+      "D": "Sông Lam"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 154,
+    "category": "31",
+    "question": "Làng nghề truyền thống nổi tiếng của Vĩnh Long là gì?",
+    "choices": {
+      "A": "Làng tranh Đông Hồ",
+      "B": "Làng lụa Vạn Phúc",
+      "C": "Làng gốm đỏ Mang Thít",
+      "D": "Làng gốm Bát Tràng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 155,
+    "category": "31",
+    "question": "Thành phố trung tâm của tỉnh Vĩnh Long là gì?",
+    "choices": {
+      "A": "Long Xuyên",
+      "B": "Cần Thơ",
+      "C": "Sa Đéc",
+      "D": "Thành phố Vĩnh Long"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 156,
+    "category": "32",
+    "question": "Ngọn núi nổi tiếng nhất thuộc dãy Thất Sơn ở An Giang là gì?",
+    "choices": {
+      "A": "Núi Cấm",
+      "B": "Núi Bà Đen",
+      "C": "Núi Chúa",
+      "D": "Núi Sam"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 157,
+    "category": "32",
+    "question": "Lễ hội Bà Chúa Xứ núi Sam diễn ra tại thành phố nào?",
+    "choices": {
+      "A": "Long Xuyên",
+      "B": "Châu Đốc",
+      "C": "Tân Châu",
+      "D": "Tri Tôn"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 158,
+    "category": "32",
+    "question": "An Giang thuộc vùng nào của Việt Nam?",
+    "choices": {
+      "A": "Tây Nguyên",
+      "B": "Bắc Bộ",
+      "C": "Đồng bằng sông Cửu Long",
+      "D": "Duyên hải Nam Trung Bộ"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 159,
+    "category": "32",
+    "question": "Con sông lớn chảy qua Long Xuyên là?",
+    "choices": {
+      "A": "Sông Cổ Chiên",
+      "B": "Sông Hậu",
+      "C": "Sông Đồng Nai",
+      "D": "Sông Tiền"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 160,
+    "category": "32",
+    "question": "Đặc sản nổi tiếng của An Giang là món gì?",
+    "choices": {
+      "A": "Bún bò Huế",
+      "B": "Lẩu mắm",
+      "C": "Bún chả",
+      "D": "Phở"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 161,
+    "category": "33",
+    "question": "Chợ nổi nổi tiếng nhất Cần Thơ là?",
+    "choices": {
+      "A": "Cái Răng",
+      "B": "Phụng Hiệp",
+      "C": "Long Xuyên",
+      "D": "Ngã Bảy"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 162,
+    "category": "33",
+    "question": "Cần Thơ nằm bên dòng sông nào?",
+    "choices": {
+      "A": "Sông Tiền",
+      "B": "Sông Hậu",
+      "C": "Sông Trà Khúc",
+      "D": "Sông Vàm Cỏ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 163,
+    "category": "33",
+    "question": "Cầu nổi tiếng ở Cần Thơ là?",
+    "choices": {
+      "A": "Cầu Mỹ Thuận",
+      "B": "Cầu Cần Thơ",
+      "C": "Cầu Rạch Miễu",
+      "D": "Cầu Thốt Nốt"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 164,
+    "category": "33",
+    "question": "Cần Thơ được mệnh danh là gì?",
+    "choices": {
+      "A": "Thủ phủ Tây Nguyên",
+      "B": "Đất thép miền Đông",
+      "C": "Tây Đô",
+      "D": "Thành phố biển"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 165,
+    "category": "33",
+    "question": "Vườn cò nổi tiếng ở Cần Thơ là?",
+    "choices": {
+      "A": "Vườn cò Bằng Lăng",
+      "B": "Vườn cò Thủ Đức",
+      "C": "Vườn cò Cà Mau",
+      "D": "Vườn cò Tràm Chim"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 166,
+    "category": "34",
+    "question": "Điểm cực Nam của đất liền Việt Nam thuộc tỉnh nào?",
+    "choices": {
+      "A": "Kiên Giang",
+      "B": "Bạc Liêu",
+      "C": "Cà Mau",
+      "D": "Sóc Trăng"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 167,
+    "category": "34",
+    "question": "Biểu tượng tại Mũi Cà Mau là gì?",
+    "choices": {
+      "A": "Cột cờ Lũng Cú",
+      "B": "Phao số 0",
+      "C": "Con tàu hướng ra biển",
+      "D": "Cột mốc chủ quyền"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 168,
+    "category": "34",
+    "question": "Cà Mau có hệ sinh thái nổi tiếng nào?",
+    "choices": {
+      "A": "Rừng tràm Trà Sư",
+      "B": "Rừng U Minh Hạ",
+      "C": "Vườn quốc gia Ba Bể",
+      "D": "Rừng nhiệt đới Tây Nguyên"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 169,
+    "category": "34",
+    "question": "Đặc sản nổi tiếng Cà Mau là gì?",
+    "choices": {
+      "A": "Bánh tét lá cẩm",
+      "B": "Cá lóc nướng trui",
+      "C": "Cá khô bổi U Minh",
+      "D": "Bánh căn"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 170,
+    "category": "34",
+    "question": "Cà Mau thuộc vùng nào?",
+    "choices": {
+      "A": "Tây Nguyên",
+      "B": "Đồng bằng sông Cửu Long",
+      "C": "Bắc Trung Bộ",
+      "D": "Đông Nam Bộ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 171,
+    "category": "35",
+    "question": "Quần đảo Hoàng Sa thuộc đơn vị hành chính nào?",
+    "choices": {
+      "A": "Huyện Hoàng Sa – Đà Nẵng",
+      "B": "Quảng Ngãi",
+      "C": "Khánh Hòa",
+      "D": "Bình Định"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 172,
+    "category": "35",
+    "question": "Hoàng Sa nằm ở vùng biển nào?",
+    "choices": {
+      "A": "Vịnh Thái Lan",
+      "B": "Biển Đông",
+      "C": "Thái Bình Dương",
+      "D": "Vịnh Bắc Bộ"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 173,
+    "category": "35",
+    "question": "Hoàng Sa có ý nghĩa quan trọng về?",
+    "choices": {
+      "A": "Giao thông đường bộ",
+      "B": "Tài nguyên đất liền",
+      "C": "An ninh – chủ quyền biển đảo",
+      "D": "Thương mại biên giới"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 174,
+    "category": "35",
+    "question": "Hai nhóm đảo chính của Hoàng Sa?",
+    "choices": {
+      "A": "An Vĩnh & Trường Sa",
+      "B": "Bắc Hải & Nam Hải",
+      "C": "An Vĩnh & Trăng Khuyết",
+      "D": "Sinh Tồn & Song Tử"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 175,
+    "category": "35",
+    "question": "Trạm khí tượng đầu tiên ở Hoàng Sa lập năm nào?",
+    "choices": {
+      "A": "1938",
+      "B": "1954",
+      "C": "1975",
+      "D": "1988"
+    },
+    "answer": "A"
+  },
+  {
+    "id": 176,
+    "category": "36",
+    "question": "Trường Sa thuộc tỉnh nào?",
+    "choices": {
+      "A": "Đà Nẵng",
+      "B": "Bình Thuận",
+      "C": "Khánh Hòa",
+      "D": "Ninh Thuận"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 177,
+    "category": "36",
+    "question": "Đảo trung tâm hành chính Trường Sa?",
+    "choices": {
+      "A": "Sinh Tồn",
+      "B": "Song Tử Tây",
+      "C": "Trường Sa Lớn",
+      "D": "Đá Tây"
+    },
+    "answer": "C"
+  },
+  {
+    "id": 178,
+    "category": "36",
+    "question": "Trường Sa quan trọng nhất về?",
+    "choices": {
+      "A": "Du lịch",
+      "B": "Chủ quyền biển đảo",
+      "C": "Đường sắt",
+      "D": "Nông nghiệp"
+    },
+    "answer": "B"
+  },
+  {
+    "id": 179,
+    "category": "36",
+    "question": "Vị trí Trường Sa trong Biển Đông?",
+    "choices": {
+      "A": "Tây Bắc",
+      "B": "Đông Bắc",
+      "C": "Tây Nam",
+      "D": "Đông Nam"
+    },
+    "answer": "D"
+  },
+  {
+    "id": 180,
+    "category": "36",
+    "question": "Sinh vật phong phú ở Trường Sa?",
+    "choices": {
+      "A": "Cá hồi",
+      "B": "San hô",
+      "C": "Cá nước ngọt",
+      "D": "Tôm càng xanh"
+    },
+    "answer": "B"
+  }
+]

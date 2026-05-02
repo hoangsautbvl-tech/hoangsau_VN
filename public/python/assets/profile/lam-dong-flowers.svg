@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Da Lat flowers illustration">
+  <rect width="960" height="540" fill="#fff7ed"/>
+  <rect y="342" width="960" height="198" fill="#82b366"/>
+  <path d="M0 360c118-50 231-45 339 15 80 44 159 48 236 10 126-63 252-65 385-5v160H0z" fill="#6aa85e"/>
+  <g transform="translate(152 190)">
+    <circle cx="0" cy="-42" r="32" fill="#f472b6"/>
+    <circle cx="38" cy="-12" r="32" fill="#fb7185"/>
+    <circle cx="24" cy="36" r="32" fill="#f9a8d4"/>
+    <circle cx="-24" cy="36" r="32" fill="#f472b6"/>
+    <circle cx="-38" cy="-12" r="32" fill="#fb7185"/>
+    <circle cx="0" cy="0" r="24" fill="#facc15"/>
+    <rect x="-5" y="42" width="10" height="170" fill="#2f7d32"/>
+  </g>
+  <g transform="translate(430 160) scale(1.18)">
+    <circle cx="0" cy="-42" r="32" fill="#60a5fa"/>
+    <circle cx="38" cy="-12" r="32" fill="#38bdf8"/>
+    <circle cx="24" cy="36" r="32" fill="#93c5fd"/>
+    <circle cx="-24" cy="36" r="32" fill="#60a5fa"/>
+    <circle cx="-38" cy="-12" r="32" fill="#38bdf8"/>
+    <circle cx="0" cy="0" r="24" fill="#fde047"/>
+    <rect x="-5" y="42" width="10" height="190" fill="#2f7d32"/>
+  </g>
+  <g transform="translate(710 205) scale(.92)">
+    <circle cx="0" cy="-42" r="32" fill="#a78bfa"/>
+    <circle cx="38" cy="-12" r="32" fill="#c084fc"/>
+    <circle cx="24" cy="36" r="32" fill="#ddd6fe"/>
+    <circle cx="-24" cy="36" r="32" fill="#a78bfa"/>
+    <circle cx="-38" cy="-12" r="32" fill="#c084fc"/>
+    <circle cx="0" cy="0" r="24" fill="#facc15"/>
+    <rect x="-5" y="42" width="10" height="160" fill="#2f7d32"/>
+  </g>
+  <text x="52" y="492" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17324d">Hoa Đà Lạt - sản phẩm đặc trưng</text>
+</svg>

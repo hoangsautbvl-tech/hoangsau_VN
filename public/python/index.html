@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <title>Trường Tiểu học Tân Lộc - Bản đồ Việt Nam</title>
+  <link rel="stylesheet" href="/python/python_app.css?v=20260502-dong-nai-city">
+</head>
+<body>
+  <main id="app" class="app">
+    <section id="intro" class="intro" aria-label="Màn hình bắt đầu">
+      <img class="intro-bg" src="/python/assets/intro-bg.png" alt="">
+      <div class="intro-shade"></div>
+      <div class="intro-content">
+        <p class="school-name">Trường Tiểu học Tân Lộc</p>
+        <h1>Khám phá bản đồ Việt Nam</h1>
+        <p class="intro-line">Tìm hiểu 34 tỉnh/thành, biển đảo, sáp nhập hành chính và thử thách trắc nghiệm địa lý.</p>
+        <button id="start-btn" class="primary-action" type="button">Bắt đầu khám phá</button>
+      </div>
+    </section>
+
+    <section id="workspace" class="workspace hidden" aria-label="Ứng dụng bản đồ học tập">
+      <aside class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="school-name compact">Trường Tiểu học Tân Lộc</p>
+            <h2>Bản đồ Việt Nam</h2>
+          </div>
+          <button id="sound-toggle" class="icon-button" type="button" aria-label="Bật tắt âm thanh" title="Âm thanh">♪</button>
+        </div>
+
+        <nav class="tabs" aria-label="Chọn chế độ">
+          <button class="tab active" type="button" data-view="map-view">Bản đồ</button>
+          <button class="tab" type="button" data-view="merge-view">Sáp nhập</button>
+          <button class="tab" type="button" data-view="quiz-view">Trò chơi</button>
+        </nav>
+
+        <div class="field">
+          <label for="province-search">Tìm tỉnh/thành</label>
+          <input id="province-search" type="search" autocomplete="off" placeholder="Nhập tên hoặc mã tỉnh">
+        </div>
+
+        <div id="province-list" class="province-list" aria-label="Danh sách tỉnh thành"></div>
+      </aside>
+
+      <section class="content">
+        <header class="topbar">
+          <div>
+            <p id="mode-label" class="mode-label">Bản đồ tương tác</p>
+            <h2 id="selected-title">Tỉnh Vĩnh Long</h2>
+          </div>
+          <div class="quick-actions">
+            <button id="home-btn" class="ghost-button home-button" type="button">Trang chủ</button>
+            <button id="national-btn" class="ghost-button" type="button">Toàn quốc</button>
+            <button id="quiz-from-province-btn" class="ghost-button" type="button">Câu hỏi tỉnh này</button>
+          </div>
+        </header>
+
+        <section id="map-view" class="view active">
+          <div class="map-shell">
+            <iframe id="map-frame" title="Bản đồ Việt Nam" src="/map?province=86&v=20260502-map-tab-reload"></iframe>
+          </div>
+          <aside class="info-strip hidden" aria-hidden="true">
+            <div>
+              <span class="label">Vùng</span>
+              <strong id="province-region">Đồng bằng sông Cửu Long</strong>
+            </div>
+            <div>
+              <span class="label">Trung tâm</span>
+              <strong id="province-capital">Vĩnh Long</strong>
+            </div>
+            <div>
+              <span class="label">Sáp nhập cấp tỉnh</span>
+              <strong id="province-merge">Bến Tre, Trà Vinh, Vĩnh Long</strong>
+            </div>
+          </aside>
+        </section>
+
+        <section id="merge-view" class="view">
+          <div class="merge-layout">
+            <div class="merge-summary">
+              <h3>Tra cứu sáp nhập</h3>
+              <p id="merge-current">Vĩnh Long được hình thành từ Bến Tre, Trà Vinh, Vĩnh Long.</p>
+              <div class="field inline-field">
+                <label for="merge-search">Tìm xã/phường cũ hoặc mới</label>
+                <input id="merge-search" type="search" autocomplete="off" placeholder="Ví dụ: Hoàn Kiếm, Cần Thơ, Cà Mau">
+              </div>
+            </div>
+            <div id="merge-results" class="merge-results"></div>
+            <div id="province-profile" class="province-profile"></div>
+          </div>
+        </section>
+
+        <section id="quiz-view" class="view">
+          <div class="quiz-stage">
+            <div class="quiz-visual">
+              <img src="/python/assets/teacher.svg" alt="" class="teacher">
+              <div class="scoreboard">
+                <div><span>Điểm</span><strong id="quiz-score">0</strong></div>
+                <div><span>Câu</span><strong id="quiz-progress">0/10</strong></div>
+                <div><span>Thời gian</span><strong id="quiz-timer">20</strong></div>
+              </div>
+            </div>
+            <div class="question-area">
+              <div class="quiz-toolbar">
+                <select id="quiz-category" aria-label="Chọn chủ đề câu hỏi">
+                  <option value="all">Tất cả chủ đề</option>
+                </select>
+                <button id="new-quiz-btn" class="primary-small" type="button">Chơi mới</button>
+              </div>
+              <p id="question-text" class="question-text">Chọn “Chơi mới” để bắt đầu.</p>
+              <div id="answer-grid" class="answer-grid"></div>
+              <p id="quiz-feedback" class="quiz-feedback" aria-live="polite"></p>
+            </div>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <dialog id="result-dialog" class="result-dialog">
+      <img id="result-image" src="/python/assets/win-banner.svg" alt="">
+      <h3 id="result-title">Hoàn thành</h3>
+      <p id="result-message"></p>
+      <button id="close-result-btn" class="primary-small" type="button">Tiếp tục</button>
+    </dialog>
+  </main>
+
+  <script src="/python/python_app.js?v=20260502-quiz-font-fix"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "effective_date": "2025-07-01",
+  "latest_update": {
+    "date": "2026-04-30",
+    "note": "Dong Nai became a centrally governed city under Resolution 30/2026/QH16.",
+    "central_city_count": 7
+  },
+  "province_count": 34,
+  "commune_count_official": 3321,
+  "data_coverage": {
+    "province_dataset": "official 34 tinh/thanh theo he thong moi 2025",
+    "commune_dataset": "full 3321 xa/phuong/dac khu from vietnam-address-database",
+    "ward_mapping_dataset": "full 10977 old-to-new ward mappings from vietnam-address-database"
+  },
+  "import_note": "communes-full.json and old-to-new-full.json have been regenerated from vietnam-address-database version 1.1."
+}

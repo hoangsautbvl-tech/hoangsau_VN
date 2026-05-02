@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Da Lat highland city illustration">
+  <rect width="960" height="540" fill="#dceff3"/>
+  <path d="M0 338c88-67 164-72 243-35 80 37 140 27 223-31 91-64 180-60 265-5 70 45 142 56 229 12v261H0z" fill="#7fb685"/>
+  <path d="M0 407c105-48 195-51 286-12 87 38 171 35 253-7 102-51 209-45 421 17v135H0z" fill="#4c8f63"/>
+  <path d="M92 328h192l-96-112z" fill="#2f5f49"/>
+  <path d="M284 322h218L393 186z" fill="#35684f"/>
+  <path d="M558 315h244L681 161z" fill="#2c5f48"/>
+  <rect x="356" y="281" width="248" height="142" rx="10" fill="#f6efe2" stroke="#7b5b3a" stroke-width="6"/>
+  <path d="M334 287l146-105 146 105z" fill="#b2452f"/>
+  <rect x="392" y="323" width="48" height="90" fill="#7e553e"/>
+  <rect x="476" y="321" width="42" height="42" fill="#80b8cf"/>
+  <rect x="548" y="321" width="42" height="42" fill="#80b8cf"/>
+  <circle cx="172" cy="166" r="56" fill="#f2c94c"/>
+  <text x="50" y="492" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#17324d">Đà Lạt - trung tâm du lịch cao nguyên</text>
+</svg>

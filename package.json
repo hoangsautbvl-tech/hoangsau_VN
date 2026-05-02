@@ -1,0 +1,13 @@
+{
+  "name": "vietnam-admin-full-dataset",
+  "version": "4.0.0",
+  "description": "tra cuu hanh chinh viet nam 2025 voi full dataset 34 tinh 3321 xa va mapping xa cu sang xa moi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "vietnam-address-database": "^1.0.0"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "assets": [
+    {
+      "source": "d14236f8b176e8b4f66db58c93856f14.png",
+      "file": "assets/intro-bg.png",
+      "bytes": 5783269
+    },
+    {
+      "source": "d59736ef8c64c84a3937973c025f49a0.svg",
+      "file": "assets/main-bg.svg",
+      "bytes": 6293246
+    },
+    {
+      "source": "cd21514d0531fdffb22204e0ec5ed84a.svg",
+      "file": "assets/detail-bg.svg",
+      "bytes": 202
+    },
+    {
+      "source": "71a766b3097affe4fd4e5408c68131fd.wav",
+      "file": "assets/click.wav",
+      "bytes": 12040
+    },
+    {
+      "source": "9ee53a8db449017e972f785b3211a682.mp3",
+      "file": "assets/select.mp3",
+      "bytes": 61440
+    },
+    {
+      "source": "8c5b7496396c7f55e350881bfed0812b.mp3",
+      "file": "assets/correct.mp3",
+      "bytes": 272634
+    },
+    {
+      "source": "2444546455cb2d6977487aaf46c29208.svg",
+      "file": "assets/win-banner.svg",
+      "bytes": 208663
+    },
+    {
+      "source": "3fe88da02225c7322899e2eb42cd4ab7.mp3",
+      "file": "assets/win.mp3",
+      "bytes": 306948
+    },
+    {
+      "source": "0992f8e71113ed57292c1f6ff3ef709a.png",
+      "file": "assets/lose-banner.png",
+      "bytes": 131577
+    },
+    {
+      "source": "a1e3fe815249d44b6e30b220ce3bd270.mp3",
+      "file": "assets/lose.mp3",
+      "bytes": 538656
+    },
+    {
+      "source": "21c6efb191fcfbd781ac93074e42d030.svg",
+      "file": "assets/player.svg",
+      "bytes": 286604
+    },
+    {
+      "source": "af71f87a8b292c2ff9d269240d97c1ef.svg",
+      "file": "assets/teacher.svg",
+      "bytes": 324415
+    },
+    {
+      "source": "4ee0d2b5f163c9385f65a19aa5035f18.svg",
+      "file": "assets/guide-banner.svg",
+      "bytes": 6573230
+    }
+  ],
+  "quiz_count": 180,
+  "source": "D:\\STTTNND\\Trường Tiểu học Tân Lộc.html"
+}

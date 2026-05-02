@@ -156,6 +156,20 @@ body {
   background: #d8eff8;
 }
 
+body.embedded-map .container {
+  display: block;
+}
+
+body.embedded-map .sidebar {
+  display: none;
+}
+
+body.embedded-map .content,
+body.embedded-map #map {
+  width: 100vw;
+  height: 100vh;
+}
+
 .map-focus-title {
   position: absolute;
   top: 18px;

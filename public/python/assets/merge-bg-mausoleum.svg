@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Lang Chu tich Ho Chi Minh">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7e5bd"/>
+      <stop offset="0.48" stop-color="#dcefe3"/>
+      <stop offset="1" stop-color="#dbeafe"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="lawn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#86b86a"/>
+      <stop offset="1" stop-color="#4d8f5c"/>
+    </linearGradient>
+    <pattern id="dongson" width="90" height="90" patternUnits="userSpaceOnUse">
+      <circle cx="45" cy="45" r="24" fill="none" stroke="#b45309" stroke-width="2" opacity=".16"/>
+      <path d="M45 18v54M18 45h54M26 26l38 38M64 26L26 64" stroke="#b45309" stroke-width="1.5" opacity=".14"/>
+    </pattern>
+    <filter id="soft" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="1.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#dongson)" opacity=".75"/>
+  <circle cx="1330" cy="158" r="92" fill="#facc15" opacity=".48" filter="url(#soft)"/>
+
+  <path d="M0 560C230 500 410 508 610 560s380 56 608-12c148-44 272-42 382 0v352H0z" fill="#d9ead3" opacity=".88"/>
+  <path d="M0 668c260-68 502-68 728 0s458 68 872-8v240H0z" fill="url(#lawn)" opacity=".9"/>
+  <path d="M0 738c250 32 438 28 640-10 296-56 542-36 960 36v136H0z" fill="#3f7d4d" opacity=".78"/>
+
+  <g transform="translate(420 214)">
+    <rect x="92" y="260" width="676" height="48" fill="#94a3b8"/>
+    <rect x="132" y="210" width="596" height="58" fill="url(#stone)"/>
+    <rect x="162" y="112" width="536" height="108" fill="#e2e8f0"/>
+    <rect x="194" y="86" width="472" height="38" fill="#cbd5e1"/>
+    <rect x="228" y="52" width="404" height="42" fill="#e5e7eb"/>
+    <path d="M200 52h460l-54-42H254z" fill="#f8fafc"/>
+    <rect x="246" y="126" width="44" height="90" fill="#64748b"/>
+    <rect x="326" y="126" width="44" height="90" fill="#64748b"/>
+    <rect x="406" y="126" width="44" height="90" fill="#64748b"/>
+    <rect x="486" y="126" width="44" height="90" fill="#64748b"/>
+    <rect x="566" y="126" width="44" height="90" fill="#64748b"/>
+    <rect x="182" y="268" width="496" height="28" fill="#475569"/>
+    <rect x="396" y="-70" width="12" height="122" fill="#334155"/>
+    <path d="M408-70l124 42-124 42z" fill="#dc2626"/>
+    <path d="M458-48l9 22 24 2-18 15 6 23-21-12-21 12 6-23-18-15 24-2z" fill="#facc15"/>
+  </g>
+
+  <g opacity=".62" fill="#f8fafc">
+    <path d="M232 742c64-92 126-92 190 0-64-24-126-24-190 0z"/>
+    <path d="M142 788c74-84 146-84 220 0-74-22-146-22-220 0z"/>
+    <path d="M1180 752c70-96 140-96 210 0-70-24-140-24-210 0z"/>
+    <path d="M1268 802c62-72 122-72 184 0-62-18-122-18-184 0z"/>
+  </g>
+</svg>

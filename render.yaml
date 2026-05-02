@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: vn-map
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DISABLE_AUTO_SHUTDOWN
+        value: "1"

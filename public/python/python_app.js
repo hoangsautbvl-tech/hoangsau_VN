@@ -1,6 +1,6 @@
 ﻿const $ = id => document.getElementById(id);
 
-const MAP_FRAME_VERSION = '20260502-map-tab-reload';
+const MAP_FRAME_VERSION = '20260502-popup-fit';
 
 const quizCategoryLabels = {
   1: 'HĂ  Ná»™i',
@@ -191,10 +191,6 @@ const provinceProfiles = {
       {
         label: 'Cổng thông tin Đồng Nai: chính thức thành lập Thành phố Đồng Nai trực thuộc Trung ương từ 30-4-2026',
         url: 'https://talai.dongnai.gov.vn/vi/news/hoat-dong-chinh-quyen-nha-nuoc/chinh-thuc-thanh-lap-thanh-pho-dong-nai-truc-thuoc-trung-uong-tu-30-4-2026-489.html'
-      },
-      {
-        label: 'Bộ dữ liệu vietnam-address-database: dữ liệu xã/phường và ánh xạ cũ - mới',
-        url: 'https://www.npmjs.com/package/vietnam-address-database'
       }
     ]
   }
@@ -740,7 +736,7 @@ function postToMap(message) {
 }
 
 function mapFrameUrl(code = state.selectedCode) {
-  return `/map?province=${encodeURIComponent(code)}&v=${MAP_FRAME_VERSION}`;
+  return `/map?province=${encodeURIComponent(code)}&embedded=1&v=${MAP_FRAME_VERSION}`;
 }
 
 function loadMapFrame(options = {}) {
@@ -928,10 +924,6 @@ function fallbackProfile(province) {
       {
         label: 'Cổng Thông tin điện tử Chính phủ: Nghị quyết 202/2025/QH15 về sắp xếp đơn vị hành chính cấp tỉnh',
         url: 'https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-quyet-so-202-2025-qh15-ve-sap-xep-don-vi-hanh-chinh-cap-tinh-119250612174148722.htm'
-      },
-      {
-        label: 'Bộ dữ liệu vietnam-address-database: 34 tỉnh/thành, 3.321 xã/phường/đặc khu, 10.977 ánh xạ cũ - mới',
-        url: 'https://www.npmjs.com/package/vietnam-address-database'
       }
     ]
   };
@@ -1351,8 +1343,40 @@ function bindEvents() {
   });
 }
 
+function startServerLifecycleHeartbeat() {
+  const clientId = (globalThis.crypto?.randomUUID?.() || `${Date.now()}-${Math.random()}`);
+  const payload = () => JSON.stringify({ id: clientId });
+
+  const sendHeartbeat = () => {
+    fetch('/api/client-heartbeat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: payload(),
+      keepalive: true,
+    }).catch(() => {});
+  };
+
+  const sendClosed = () => {
+    const body = new Blob([payload()], { type: 'application/json' });
+    if (!navigator.sendBeacon?.('/api/client-closed', body)) {
+      fetch('/api/client-closed', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: payload(),
+        keepalive: true,
+      }).catch(() => {});
+    }
+  };
+
+  sendHeartbeat();
+  window.setInterval(sendHeartbeat, 5000);
+  window.addEventListener('pagehide', sendClosed);
+  window.addEventListener('beforeunload', sendClosed);
+}
+
 async function init() {
   repairStaticDomText();
+  startServerLifecycleHeartbeat();
   $('start-btn').addEventListener('click', event => {
     playSound('click');
     $('intro').classList.add('hidden');

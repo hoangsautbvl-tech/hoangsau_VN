@@ -54,6 +54,15 @@ const state = {
   geoCache: new Map(),
 };
 
+const isEmbeddedMap = (() => {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('embedded') === '1' || window.self !== window.top;
+})();
+
+if (isEmbeddedMap) {
+  document.body.classList.add('embedded-map');
+}
+
 const el = id => document.getElementById(id);
 const fmt = n => new Intl.NumberFormat('vi-VN').format(n);
 const fmt1 = n => new Intl.NumberFormat('vi-VN', { maximumFractionDigits: 1 }).format(n);
@@ -823,6 +832,23 @@ function buildProvincePopup(province, stats) {
   `;
 }
 
+function openProvincePopup(center, province, stats) {
+  if (!state.map || !center) return;
+  const popup = L.popup({
+    className: 'province-summary-popup',
+    keepInView: true,
+    autoPan: true,
+    autoPanPaddingTopLeft: L.point(24, isEmbeddedMap ? 118 : 42),
+    autoPanPaddingBottomRight: L.point(24, 24),
+    maxHeight: Math.max(260, Math.floor(state.map.getSize().y - (isEmbeddedMap ? 150 : 72))),
+  })
+    .setLatLng(center)
+    .setContent(buildProvincePopup(province, stats));
+
+  popup.openOn(state.map);
+  window.setTimeout(() => popup.update(), 80);
+}
+
 async function selectCommuneFeature(feature, layer, latlng = null) {
   const titleText = `${communeType(feature).toLowerCase()} ${communeName(feature)}`;
   setStatus(`Đang xem ${titleText}, ${state.selectedProvince?.full_name || ''}.`);
@@ -942,10 +968,14 @@ async function chooseProvince(code) {
     const stats = provinceStatsFromGeo(geo);
     const rendered = renderCommunePolygons(geo, province);
     const center = rendered.center || provinceLatLng(province) || L.latLng(16.0, 108.0);
-    L.popup()
-      .setLatLng(center)
-      .setContent(buildProvincePopup(province, stats))
-      .openOn(state.map);
+    let popupOpened = false;
+    const showPopup = () => {
+      if (popupOpened) return;
+      popupOpened = true;
+      openProvincePopup(center, province, stats);
+    };
+    state.map.once('moveend', showPopup);
+    window.setTimeout(showPopup, 920);
     setStatus(`Đã hiển thị ${fmt(rendered.count)} xã/phường của ${province.full_name}. Click trực tiếp từng vùng hoặc tên xã/phường để xem chi tiết.`);
   } catch (error) {
     console.error(error);

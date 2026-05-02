@@ -1,9 +1,19 @@
 const express = require('express');
 const path = require('path');
+const { exec } = require('child_process');
 
 const app = express();
 const PORT = process.env.PORT || 9000;
 const NOMINATIM_EMAIL = process.env.NOMINATIM_EMAIL || '';
+const START_URL = `http://localhost:${PORT}/python/index.html`;
+const IS_HOSTED = process.env.RENDER === 'true'
+  || process.env.RENDER_SERVICE_ID
+  || process.env.NODE_ENV === 'production'
+  || process.env.DISABLE_AUTO_SHUTDOWN === '1';
+const activeClients = new Map();
+let browserClientSeen = false;
+let shutdownStarted = false;
+let server = null;
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public'), {
@@ -17,6 +27,57 @@ app.use(express.static(path.join(__dirname, 'public'), {
 app.get('/map', (_req, res) => {
   res.setHeader('Cache-Control', 'no-store');
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
+
+function pruneInactiveClients() {
+  const now = Date.now();
+  for (const [id, lastSeen] of activeClients.entries()) {
+    if (now - lastSeen > 120000) activeClients.delete(id);
+  }
+}
+
+function shutdownWhenBrowserClosed() {
+  if (IS_HOSTED) return;
+  if (shutdownStarted || !browserClientSeen) return;
+  pruneInactiveClients();
+  if (activeClients.size > 0) return;
+
+  shutdownStarted = true;
+  console.log('Browser closed. Shutting down local server.');
+  server?.close(() => process.exit(0));
+  windowlessExitFallback();
+}
+
+function windowlessExitFallback() {
+  setTimeout(() => process.exit(0), 1500).unref();
+}
+
+app.post('/api/client-heartbeat', (req, res) => {
+  if (IS_HOSTED) return res.json({ ok: true, hosted: true });
+  const id = String(req.body?.id || '').trim();
+  if (id) {
+    browserClientSeen = true;
+    activeClients.set(id, Date.now());
+  }
+  res.json({ ok: true });
+});
+
+app.post('/api/client-closed', (req, res) => {
+  if (IS_HOSTED) return res.json({ ok: true, hosted: true });
+  const id = String(req.body?.id || '').trim();
+  if (id) activeClients.delete(id);
+  res.json({ ok: true });
+  setTimeout(shutdownWhenBrowserClosed, 5000).unref();
+});
+
+setInterval(shutdownWhenBrowserClosed, 3000).unref();
+
+app.get('/', (_req, res) => {
+  res.redirect('/python/index.html');
+});
+
+app.get('/healthz', (_req, res) => {
+  res.json({ ok: true });
 });
 
 const normalize = text => String(text || '')
@@ -342,4 +403,24 @@ app.get('/api/boundary/search', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => console.log(`Server running at http://localhost:${PORT}`));
+function openBrowser(url) {
+  if (IS_HOSTED) return;
+  if (process.env.NO_BROWSER === '1') return;
+
+  const command = process.platform === 'win32'
+    ? `start "" "${url}"`
+    : process.platform === 'darwin'
+      ? `open "${url}"`
+      : `xdg-open "${url}"`;
+
+  exec(command, error => {
+    if (error) {
+      console.log(`Khong the tu mo trinh duyet. Vui long mo: ${url}`);
+    }
+  });
+}
+
+server = app.listen(PORT, () => {
+  console.log(`Server running at ${START_URL}`);
+  openBrowser(START_URL);
+});
